@@ -28,9 +28,12 @@ can detect this crash and produce an out-of-band value instead.
 ```
 Nock 4K
 
-A noun is an atom or a cell.  An atom is a natural number.  A cell is an ordered pair of nouns.
+A noun is an atom or a cell.  
+An atom is a natural number.  
+A cell is an ordered pair of nouns.
 
-Reduce by the first matching pattern; variables match any noun.
+Reduce by the first matching pattern; 
+variables match any noun.
 
 nock(a)             *a
 [a b c]             [a [b c]]
